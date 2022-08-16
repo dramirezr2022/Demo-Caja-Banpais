@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\Domain.dll
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\Domain.pdb
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\DataAcces.dll
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\DataAcces.pdb
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\obj\Debug\Domain.dll
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\obj\Debug\Domain.pdb
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\Common.dll
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\Common.pdb
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Domain\bin\Debug\DataAcces.dll.config

@@ -1,0 +1,6 @@
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Common\bin\Debug\Common.dll
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Common\bin\Debug\Common.pdb
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Common\obj\Debug\Common.dll
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Common\obj\Debug\Common.pdb
