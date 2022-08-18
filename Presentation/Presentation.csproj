@@ -58,6 +58,12 @@
     <Compile Include="login.designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
+    <Compile Include="manetenimiento_tipo_moneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manetenimiento_tipo_moneda.Designer.cs">
+      <DependentUpon>manetenimiento_tipo_moneda.cs</DependentUpon>
+    </Compile>
     <Compile Include="mantenimiento_tasa_de_cambio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tipo_transaccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tipo_transaccion.Designer.cs">
+      <DependentUpon>tipo_transaccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="transacciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manetenimiento_tipo_moneda.resx">
+      <DependentUpon>manetenimiento_tipo_moneda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mantenimiento_tasa_de_cambio.resx">
       <DependentUpon>mantenimiento_tasa_de_cambio.cs</DependentUpon>
@@ -118,6 +133,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="tipo_transaccion.resx">
+      <DependentUpon>tipo_transaccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="transacciones.resx">
       <DependentUpon>transacciones.cs</DependentUpon>
     </EmbeddedResource>

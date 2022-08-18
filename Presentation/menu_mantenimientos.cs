@@ -62,5 +62,22 @@ namespace Presentation
 
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            tipo_transaccion tipoTransaccion = new tipo_transaccion();
+            tipoTransaccion.Show();
+            tipoTransaccion.FormClosed += mantenimientos;
+            this.Hide();
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            manetenimiento_tipo_moneda tipoMoneda = new manetenimiento_tipo_moneda();
+            tipoMoneda.Show();
+            tipoMoneda.FormClosed += mantenimientos;
+            this.Hide();
+        }
     }
 }

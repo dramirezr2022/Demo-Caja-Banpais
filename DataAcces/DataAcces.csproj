@@ -50,6 +50,8 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="TipoMonedaData.cs" />
+    <Compile Include="TipoTranaccionesData.cs" />
     <Compile Include="transacciones_DataAcces.cs" />
     <Compile Include="User.cs" />
     <Compile Include="ConnetionToSql.cs" />

@@ -35,5 +35,9 @@ namespace Domain
             return tabla;
 
         }
+        public void insertarTransaccion(string tipo_transaccion, string id_cliente, string monto, string fecha)
+        {
+            objTransacciones.insertarTransaccion(Convert.ToInt32(tipo_transaccion), Convert.ToInt32(id_cliente), monto, fecha);
+        }
     }
 }
