@@ -22,3 +22,5 @@ C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais
 C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.mantenimiento_tasa_de_cambio.resources
 C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.mantenimiento_tipo_de_cuentas.resources
 C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.transacciones.resources
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.tipo_transaccion.resources
+C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.manetenimiento_tipo_moneda.resources
