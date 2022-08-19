@@ -116,5 +116,21 @@ namespace Presentation
             vistaMantenimientos.FormClosed += menu;
             this.Hide();
         }
+
+        private void Transacciones_Click(object sender, EventArgs e)
+        {
+            transacciones vistaTransaccions = new transacciones();
+            vistaTransaccions.Show();
+            vistaTransaccions.FormClosed += menu;
+            this.Hide();
+        }
+
+        private void labelClientes_Click(object sender, EventArgs e)
+        {
+            historial_clientes vistaHistorial = new historial_clientes();
+            vistaHistorial.Show();
+            vistaHistorial.FormClosed += menu;
+            this.Hide();
+        }
     }
 }

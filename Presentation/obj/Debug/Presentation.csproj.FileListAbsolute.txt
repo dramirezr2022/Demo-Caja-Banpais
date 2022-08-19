@@ -24,4 +24,7 @@ C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais
 C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.transacciones.resources
 C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.tipo_transaccion.resources
 C:\Users\Usuario\Documents\base de datos sistema de caja\sistema de caja BanPais\Presentation\obj\Debug\Presentation.manetenimiento_tipo_moneda.resources
+<<<<<<< HEAD
 C:\Users\Usuario\Documents\base de datos sistema de caja\Sistema de caja BanPais\Presentation\obj\Debug\Presentation.historial_clientes.resources
+=======
+>>>>>>> af66cc1b0d9e9adcbdb3719cc15a06dc5c24665a

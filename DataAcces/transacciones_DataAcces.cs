@@ -49,10 +49,10 @@ namespace DataAcces
             return tabla;
 
         }
-        public void insertarTransaccion(int tipo_transaccion,int id_cliente, string monto, string fecha)
+        public void insertarTransaccion(int tipo_transaccion,int id_cliente, string monto)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "exec insert_transaccion " + tipo_transaccion + ","+id_cliente+",'"+monto+"','"+fecha+"'";
+            comando.CommandText = "exec insert_transaccion " + tipo_transaccion + ","+id_cliente+",'"+monto+"'";
             comando.ExecuteReader();
 
         }

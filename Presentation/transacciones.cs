@@ -14,7 +14,7 @@ namespace Presentation
 {
     public partial class transacciones : Form
     {
-       
+        private string id_cliente;
         public transacciones()
         {
             InitializeComponent();
@@ -42,6 +42,7 @@ namespace Presentation
             textCliente.Text = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
             textCuenta.Text= dataGridView1.CurrentRow.Cells["Cuenta"].Value.ToString();
             textTipoCuenta.Text = dataGridView1.CurrentRow.Cells["Cuenta"].Value.ToString();
+            id_cliente = dataGridView1.CurrentRow.Cells["id_cliente"].Value.ToString();
         }
 
         private void buttonBuscar_Click(object sender, EventArgs e)
@@ -61,7 +62,7 @@ namespace Presentation
         {
             transacciones_dominio objTransacciones = new transacciones_dominio();
             comboBoxTipoTransaccion.DataSource = objTransacciones.TipoTransacciones();
-            comboBoxTipoTransaccion.DisplayMember = "Tipo";
+            comboBoxTipoTransaccion.DisplayMember = "id";
             comboBoxTipoTransaccion.ValueMember = "id";
             comboBoxTipoTransaccion.Text = "Seleccione tipo de transacción";
         }
@@ -87,6 +88,32 @@ namespace Presentation
             {
                 e.Handled = true;
             }
+        }
+
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+            transacciones_dominio objInsertar = new transacciones_dominio();
+            
+            objInsertar.insertarTransaccion(comboBoxTipoTransaccion.Text,id_cliente,textBoxMonto.Text);
+            MessageBox.Show("Transacción registrada con éxito");
+            this.textCliente.Clear();
+            this.textCuenta.Clear();
+            this.textTipoCuenta.Clear();
+            this.comboBoxTipoTransaccion.Text = " ";
+            this.textBoxMonto.Clear();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            menu_supervisor vistaMenu = new menu_supervisor();
+            vistaMenu.Show();
+            vistaMenu.FormClosed += menu;
+            this.Hide();
+        }
+        private void menu(object sender, FormClosedEventArgs e)
+        {
+
+            this.Show();
         }
     }
 }

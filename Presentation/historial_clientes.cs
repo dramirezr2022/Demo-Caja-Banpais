@@ -49,5 +49,18 @@ namespace Presentation
         {
             dataGridView1.Visible = false;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            menu_supervisor vistaMenu = new menu_supervisor();
+            vistaMenu.Show();
+            vistaMenu.FormClosed += menu;
+            this.Hide();
+        }
+        private void menu(object sender, FormClosedEventArgs e)
+        {
+
+            this.Show();
+        }
     }
 }

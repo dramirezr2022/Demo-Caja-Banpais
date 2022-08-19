@@ -32,6 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonRefrescar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textSaldo = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.buttonRefrescar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -85,6 +85,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel2
             // 
@@ -105,6 +106,19 @@
             this.panel2.Size = new System.Drawing.Size(606, 354);
             this.panel2.TabIndex = 22;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // buttonRefrescar
+            // 
+            this.buttonRefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRefrescar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRefrescar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(0)))));
+            this.buttonRefrescar.Location = new System.Drawing.Point(396, 229);
+            this.buttonRefrescar.Name = "buttonRefrescar";
+            this.buttonRefrescar.Size = new System.Drawing.Size(100, 39);
+            this.buttonRefrescar.TabIndex = 29;
+            this.buttonRefrescar.Text = "REFRESCAR";
+            this.buttonRefrescar.UseVisualStyleBackColor = true;
+            this.buttonRefrescar.Click += new System.EventHandler(this.buttonRefrescar_Click);
             // 
             // label7
             // 
@@ -264,19 +278,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(12, 17);
             this.dataGridView1.TabIndex = 25;
-            // 
-            // buttonRefrescar
-            // 
-            this.buttonRefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRefrescar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRefrescar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(0)))));
-            this.buttonRefrescar.Location = new System.Drawing.Point(396, 229);
-            this.buttonRefrescar.Name = "buttonRefrescar";
-            this.buttonRefrescar.Size = new System.Drawing.Size(100, 39);
-            this.buttonRefrescar.TabIndex = 29;
-            this.buttonRefrescar.Text = "REFRESCAR";
-            this.buttonRefrescar.UseVisualStyleBackColor = true;
-            this.buttonRefrescar.Click += new System.EventHandler(this.buttonRefrescar_Click);
             // 
             // historial_clientes
             // 
