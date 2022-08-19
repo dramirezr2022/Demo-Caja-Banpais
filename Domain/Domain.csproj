@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HistorialClientesDominio.cs" />
     <Compile Include="mantenimiento_tasa_cambio_dominio.cs" />
     <Compile Include="mantenimiento_cuentas_dominio.cs" />
     <Compile Include="ClientesDomain.cs" />

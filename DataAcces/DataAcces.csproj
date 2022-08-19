@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HistorialData.cs" />
     <Compile Include="mantenimiento_tasa_cambio.cs" />
     <Compile Include="mantenimiento_cuentas.cs" />
     <Compile Include="ClientesData.cs" />
